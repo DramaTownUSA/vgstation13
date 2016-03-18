@@ -179,3 +179,11 @@
 					else
 						display_name = holder.fakekey
 			to_chat(C, "<font color='#6699CC'><span class='ooc'><span class='prefix'>LOOC:</span> <EM>[display_name]:</EM> <span class='message'>[msg]</span></span></font>")
+
+
+
+/client/verb/change_view_range(var/view_range as anything)
+	set name = "Change View Range"
+	set category = "OOC"
+
+	view = view_range
